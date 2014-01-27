@@ -10,6 +10,10 @@
 
 @interface XYZViewController ()
 
+@property (nonatomic, strong) UIProgressView *progressView;
+@property (nonatomic, strong) NSTimer *myTimer;
+@property (nonatomic, strong) IBOutlet UILabel *progressLabel;
+
 @end
 
 @implementation XYZViewController
@@ -17,13 +21,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.progressView = [[UIProgressView alloc] initWithProgressViewStyle:UIProgressViewStyleDefault];
+    
+    self.progressView.center = self.view.center;
+    [self.view addSubview:self.progressView];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)startCount:(id)sender {
 }
 
 @end
