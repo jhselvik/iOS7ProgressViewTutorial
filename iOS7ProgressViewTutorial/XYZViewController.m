@@ -10,7 +10,7 @@
 
 @interface XYZViewController ()
 
-@property (nonatomic, strong) UIProgressView *progressView;
+@property (nonatomic, strong) IBOutlet UIProgressView *progressView;
 @property (nonatomic, strong) NSTimer *myTimer;
 @property (nonatomic, strong) IBOutlet UILabel *progressLabel;
 
@@ -22,10 +22,10 @@
 {
     [super viewDidLoad];
     
-    self.progressView = [[UIProgressView alloc] initWithProgressViewStyle:UIProgressViewStyleDefault];
+    //self.progressView = [[UIProgressView alloc] initWithProgressViewStyle:UIProgressViewStyleDefault];
     
-    self.progressView.center = self.view.center;
-    [self.view addSubview:self.progressView];
+    //self.progressView.center = self.view.center;
+    //[self.view addSubview:self.progressView];
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,7 +35,7 @@
 }
 
 - (IBAction)startCount:(id)sender {
-    self.myTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(updateUI:) userInfo:nil repeats:YES];
+    self.myTimer = [NSTimer scheduledTimerWithTimeInterval:.1 target:self selector:@selector(updateUI:) userInfo:nil repeats:YES];
 }
 
 - (void)updateUI:(NSTimer *)timer
