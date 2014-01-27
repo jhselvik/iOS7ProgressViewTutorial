@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		888BDC7A189721BC0029EF4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888BDC79189721BC0029EF4C /* Foundation.framework */; };
+		888BDC7C189721BC0029EF4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888BDC7B189721BC0029EF4C /* CoreGraphics.framework */; };
+		888BDC7E189721BC0029EF4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888BDC7D189721BC0029EF4C /* UIKit.framework */; };
+		888BDC84189721BC0029EF4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 888BDC82189721BC0029EF4C /* InfoPlist.strings */; };
+		888BDC86189721BC0029EF4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 888BDC85189721BC0029EF4C /* main.m */; };
+		888BDC8A189721BC0029EF4C /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 888BDC89189721BC0029EF4C /* XYZAppDelegate.m */; };
+		888BDC8D189721BC0029EF4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888BDC8B189721BC0029EF4C /* Main.storyboard */; };
+		888BDC90189721BC0029EF4C /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 888BDC8F189721BC0029EF4C /* XYZViewController.m */; };
+		888BDC92189721BC0029EF4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888BDC91189721BC0029EF4C /* Images.xcassets */; };
+		888BDC99189721BC0029EF4C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888BDC98189721BC0029EF4C /* XCTest.framework */; };
+		888BDC9A189721BC0029EF4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888BDC79189721BC0029EF4C /* Foundation.framework */; };
+		888BDC9B189721BC0029EF4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888BDC7D189721BC0029EF4C /* UIKit.framework */; };
+		888BDCA3189721BC0029EF4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 888BDCA1189721BC0029EF4C /* InfoPlist.strings */; };
+		888BDCA5189721BC0029EF4C /* iOS7ProgressViewTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 888BDCA4189721BC0029EF4C /* iOS7ProgressViewTutorialTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		888BDC9C189721BC0029EF4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888BDC6E189721BC0029EF4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888BDC75189721BC0029EF4C;
+			remoteInfo = iOS7ProgressViewTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		888BDC76189721BC0029EF4C /* iOS7ProgressViewTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS7ProgressViewTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		888BDC79189721BC0029EF4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		888BDC7B189721BC0029EF4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		888BDC7D189721BC0029EF4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		888BDC81189721BC0029EF4C /* iOS7ProgressViewTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7ProgressViewTutorial-Info.plist"; sourceTree = "<group>"; };
+		888BDC83189721BC0029EF4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		888BDC85189721BC0029EF4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		888BDC87189721BC0029EF4C /* iOS7ProgressViewTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS7ProgressViewTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		888BDC88189721BC0029EF4C /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		888BDC89189721BC0029EF4C /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		888BDC8C189721BC0029EF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		888BDC8E189721BC0029EF4C /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
+		888BDC8F189721BC0029EF4C /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
+		888BDC91189721BC0029EF4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		888BDC97189721BC0029EF4C /* iOS7ProgressViewTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS7ProgressViewTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		888BDC98189721BC0029EF4C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		888BDCA0189721BC0029EF4C /* iOS7ProgressViewTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7ProgressViewTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		888BDCA2189721BC0029EF4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		888BDCA4189721BC0029EF4C /* iOS7ProgressViewTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS7ProgressViewTutorialTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		888BDC73189721BC0029EF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888BDC7C189721BC0029EF4C /* CoreGraphics.framework in Frameworks */,
+				888BDC7E189721BC0029EF4C /* UIKit.framework in Frameworks */,
+				888BDC7A189721BC0029EF4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888BDC94189721BC0029EF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888BDC99189721BC0029EF4C /* XCTest.framework in Frameworks */,
+				888BDC9B189721BC0029EF4C /* UIKit.framework in Frameworks */,
+				888BDC9A189721BC0029EF4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		888BDC6D189721BC0029EF4C = {
+			isa = PBXGroup;
+			children = (
+				888BDC7F189721BC0029EF4C /* iOS7ProgressViewTutorial */,
+				888BDC9E189721BC0029EF4C /* iOS7ProgressViewTutorialTests */,
+				888BDC78189721BC0029EF4C /* Frameworks */,
+				888BDC77189721BC0029EF4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		888BDC77189721BC0029EF4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888BDC76189721BC0029EF4C /* iOS7ProgressViewTutorial.app */,
+				888BDC97189721BC0029EF4C /* iOS7ProgressViewTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		888BDC78189721BC0029EF4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				888BDC79189721BC0029EF4C /* Foundation.framework */,
+				888BDC7B189721BC0029EF4C /* CoreGraphics.framework */,
+				888BDC7D189721BC0029EF4C /* UIKit.framework */,
+				888BDC98189721BC0029EF4C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		888BDC7F189721BC0029EF4C /* iOS7ProgressViewTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				888BDC88189721BC0029EF4C /* XYZAppDelegate.h */,
+				888BDC89189721BC0029EF4C /* XYZAppDelegate.m */,
+				888BDC8B189721BC0029EF4C /* Main.storyboard */,
+				888BDC8E189721BC0029EF4C /* XYZViewController.h */,
+				888BDC8F189721BC0029EF4C /* XYZViewController.m */,
+				888BDC91189721BC0029EF4C /* Images.xcassets */,
+				888BDC80189721BC0029EF4C /* Supporting Files */,
+			);
+			path = iOS7ProgressViewTutorial;
+			sourceTree = "<group>";
+		};
+		888BDC80189721BC0029EF4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				888BDC81189721BC0029EF4C /* iOS7ProgressViewTutorial-Info.plist */,
+				888BDC82189721BC0029EF4C /* InfoPlist.strings */,
+				888BDC85189721BC0029EF4C /* main.m */,
+				888BDC87189721BC0029EF4C /* iOS7ProgressViewTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		888BDC9E189721BC0029EF4C /* iOS7ProgressViewTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				888BDCA4189721BC0029EF4C /* iOS7ProgressViewTutorialTests.m */,
+				888BDC9F189721BC0029EF4C /* Supporting Files */,
+			);
+			path = iOS7ProgressViewTutorialTests;
+			sourceTree = "<group>";
+		};
+		888BDC9F189721BC0029EF4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				888BDCA0189721BC0029EF4C /* iOS7ProgressViewTutorialTests-Info.plist */,
+				888BDCA1189721BC0029EF4C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		888BDC75189721BC0029EF4C /* iOS7ProgressViewTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888BDCA8189721BC0029EF4C /* Build configuration list for PBXNativeTarget "iOS7ProgressViewTutorial" */;
+			buildPhases = (
+				888BDC72189721BC0029EF4C /* Sources */,
+				888BDC73189721BC0029EF4C /* Frameworks */,
+				888BDC74189721BC0029EF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS7ProgressViewTutorial;
+			productName = iOS7ProgressViewTutorial;
+			productReference = 888BDC76189721BC0029EF4C /* iOS7ProgressViewTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		888BDC96189721BC0029EF4C /* iOS7ProgressViewTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888BDCAB189721BC0029EF4C /* Build configuration list for PBXNativeTarget "iOS7ProgressViewTutorialTests" */;
+			buildPhases = (
+				888BDC93189721BC0029EF4C /* Sources */,
+				888BDC94189721BC0029EF4C /* Frameworks */,
+				888BDC95189721BC0029EF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888BDC9D189721BC0029EF4C /* PBXTargetDependency */,
+			);
+			name = iOS7ProgressViewTutorialTests;
+			productName = iOS7ProgressViewTutorialTests;
+			productReference = 888BDC97189721BC0029EF4C /* iOS7ProgressViewTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		888BDC6E189721BC0029EF4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Joe Selvik";
+				TargetAttributes = {
+					888BDC96189721BC0029EF4C = {
+						TestTargetID = 888BDC75189721BC0029EF4C;
+					};
+				};
+			};
+			buildConfigurationList = 888BDC71189721BC0029EF4C /* Build configuration list for PBXProject "iOS7ProgressViewTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 888BDC6D189721BC0029EF4C;
+			productRefGroup = 888BDC77189721BC0029EF4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				888BDC75189721BC0029EF4C /* iOS7ProgressViewTutorial */,
+				888BDC96189721BC0029EF4C /* iOS7ProgressViewTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		888BDC74189721BC0029EF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888BDC92189721BC0029EF4C /* Images.xcassets in Resources */,
+				888BDC84189721BC0029EF4C /* InfoPlist.strings in Resources */,
+				888BDC8D189721BC0029EF4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888BDC95189721BC0029EF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888BDCA3189721BC0029EF4C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		888BDC72189721BC0029EF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888BDC90189721BC0029EF4C /* XYZViewController.m in Sources */,
+				888BDC8A189721BC0029EF4C /* XYZAppDelegate.m in Sources */,
+				888BDC86189721BC0029EF4C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888BDC93189721BC0029EF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888BDCA5189721BC0029EF4C /* iOS7ProgressViewTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		888BDC9D189721BC0029EF4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 888BDC75189721BC0029EF4C /* iOS7ProgressViewTutorial */;
+			targetProxy = 888BDC9C189721BC0029EF4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		888BDC82189721BC0029EF4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888BDC83189721BC0029EF4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		888BDC8B189721BC0029EF4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888BDC8C189721BC0029EF4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		888BDCA1189721BC0029EF4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888BDCA2189721BC0029EF4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		888BDCA6189721BC0029EF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		888BDCA7189721BC0029EF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		888BDCA9189721BC0029EF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7ProgressViewTutorial/iOS7ProgressViewTutorial-Prefix.pch";
+				INFOPLIST_FILE = "iOS7ProgressViewTutorial/iOS7ProgressViewTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		888BDCAA189721BC0029EF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7ProgressViewTutorial/iOS7ProgressViewTutorial-Prefix.pch";
+				INFOPLIST_FILE = "iOS7ProgressViewTutorial/iOS7ProgressViewTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		888BDCAC189721BC0029EF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS7ProgressViewTutorial.app/iOS7ProgressViewTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7ProgressViewTutorial/iOS7ProgressViewTutorial-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS7ProgressViewTutorialTests/iOS7ProgressViewTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		888BDCAD189721BC0029EF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS7ProgressViewTutorial.app/iOS7ProgressViewTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7ProgressViewTutorial/iOS7ProgressViewTutorial-Prefix.pch";
+				INFOPLIST_FILE = "iOS7ProgressViewTutorialTests/iOS7ProgressViewTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		888BDC71189721BC0029EF4C /* Build configuration list for PBXProject "iOS7ProgressViewTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888BDCA6189721BC0029EF4C /* Debug */,
+				888BDCA7189721BC0029EF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888BDCA8189721BC0029EF4C /* Build configuration list for PBXNativeTarget "iOS7ProgressViewTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888BDCA9189721BC0029EF4C /* Debug */,
+				888BDCAA189721BC0029EF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		888BDCAB189721BC0029EF4C /* Build configuration list for PBXNativeTarget "iOS7ProgressViewTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888BDCAC189721BC0029EF4C /* Debug */,
+				888BDCAD189721BC0029EF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 888BDC6E189721BC0029EF4C /* Project object */;
+}
