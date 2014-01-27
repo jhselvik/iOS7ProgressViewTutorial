@@ -35,6 +35,21 @@
 }
 
 - (IBAction)startCount:(id)sender {
+    self.myTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(updateUI:) userInfo:nil repeats:YES];
+}
+
+- (void)updateUI:(NSTimer *)timer
+{
+    static int count = 0;
+    count++;
+    
+    if (count <=10) {
+        self.progressLabel.text = [NSString stringWithFormat:@"%d %%",count*10];
+        self.progressView.progress = (float)count/10.0f;
+    } else {
+        [self.myTimer invalidate];
+        self.myTimer = nil;
+    } 
 }
 
 @end
